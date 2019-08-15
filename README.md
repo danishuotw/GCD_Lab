@@ -3,7 +3,7 @@
 ##### Barrier Note
 When the barrier block reaches the front of a private concurrent queue, it is not executed immediately. Instead, the queue waits until its currently executing blocks finish executing. 
 
-## Normal aync Case
+## Normal aync case
 
 ```swift
 class TestObject {
@@ -51,7 +51,7 @@ for _ in 1...2 {
  */
  ```
  
-## With barrier Case
+## With barrier case
 
 ```swift
 import UIKit
